@@ -1,0 +1,60 @@
+P3.1
+
+
+package com.mycompany.empobj;
+public class Employee 
+{
+    private String Name;
+    private int Age;
+    private float Salary;
+    
+    public void setName(String name)
+    {
+       this.Name=name;       
+    }
+    public String getName()
+    {
+        return Name;
+    }
+     public void setAge(int age)
+    {
+       this.Age=age;       
+    }
+    public int getAge()
+    {
+        return Age;
+    }
+     public void setSalary(float salary)
+    {
+       this.Salary=salary;       
+    }
+    public float getSalary()
+    {
+        return Salary;
+    }
+}
+
+
+
+
+
+package com.mycompany.empobj;
+public class Empobj 
+{
+
+    public static void main(String[] args) 
+    {
+        Employee E1=new Employee();
+       E1.setName("Abishek");
+        System.out.println(E1.getName());
+       E1.setAge(21);
+        System.out.println(E1.getAge());
+       E1.setSalary(250000.00f);
+        System.out.println(E1.getSalary());
+    }
+}
+
+
+
+
+
